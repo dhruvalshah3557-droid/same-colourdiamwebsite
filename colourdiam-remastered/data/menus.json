@@ -1,0 +1,369 @@
+{
+  "diamonds": {
+    "MenuList": [
+      {
+        "Sr": 0,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "diamonds",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "D-Z Colour Diamonds",
+        "ImgPath": "/assets/img/loosestones/natural.jpg",
+        "PageName": "diamonds",
+        "RedirectURL": "D-Z"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "Argyle Diamonds",
+        "ImgPath": "/assets/img/loosestones/argyle.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Argyle"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "Chameleon Diamonds",
+        "ImgPath": "/assets/img/loosestones/chameleon.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Chameleon"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "All Fancy Colour Diamonds",
+        "ImgPath": "/assets/img/loosestones/AllFancy.png",
+        "PageName": "diamonds",
+        "RedirectURL": "All Fancy Colour Diamonds"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Natural Diamonds",
+        "SubMenu": "New Arrival",
+        "ImgPath": "/assets/img/loosestones/natural.jpg",
+        "PageName": "diamonds",
+        "RedirectURL": "New Arrival"
+      },
+      {
+        "Sr": 0,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "diamonds",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Black Diamonds",
+        "ImgPath": "/assets/img/loosestones/Black.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Black"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Blue Diamonds",
+        "ImgPath": "/assets/img/loosestones/Blue.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Blue"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Brown Diamonds",
+        "ImgPath": "/assets/img/loosestones/Brown.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Brown"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Gray Diamonds",
+        "ImgPath": "/assets/img/loosestones/Gray.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Gray"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Green Diamonds",
+        "ImgPath": "/assets/img/loosestones/Green.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Green"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Orange Diamonds",
+        "ImgPath": "/assets/img/loosestones/Orange.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Orange"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "pink Diamonds",
+        "ImgPath": "/assets/img/loosestones/pink.png",
+        "PageName": "diamonds",
+        "RedirectURL": "pink"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Purple Diamonds",
+        "ImgPath": "/assets/img/loosestones/Purple.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Purple"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Red Diamonds",
+        "ImgPath": "/assets/img/loosestones/Red.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Red"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Violet Diamonds",
+        "ImgPath": "/assets/img/loosestones/Violet.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Violet"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "White Diamonds",
+        "ImgPath": "/assets/img/loosestones/White.png",
+        "PageName": "diamonds",
+        "RedirectURL": "White"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Fancy Colour Diamonds",
+        "SubMenu": "Yellow Diamonds",
+        "ImgPath": "/assets/img/loosestones/Yellow.png",
+        "PageName": "diamonds",
+        "RedirectURL": "Yellow"
+      }
+    ],
+    "CompanyId": 0,
+    "UserId": 0,
+    "UniquId": 0,
+    "EncryptedId": null,
+    "TotalCount": 0,
+    "PartialViewName": null,
+    "SubMenuName": null,
+    "FromHome": 0,
+    "DelId": null
+  },
+  "jewelry": {
+    "MenuList": [
+      {
+        "Sr": 0,
+        "Menu": "Shop By Category",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "product",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "Ring",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "product",
+        "RedirectURL": "Ring"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "Earring",
+        "ImgPath": "/assets/img/Menu/Earring.jpg",
+        "PageName": "product",
+        "RedirectURL": "Earring"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "Bracelet",
+        "ImgPath": "/assets/img/Menu/Bracelet.jpg",
+        "PageName": "product",
+        "RedirectURL": "Bracelet"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "Necklace",
+        "ImgPath": "/assets/img/Menu/Necklace.jpg",
+        "PageName": "product",
+        "RedirectURL": "Necklace"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "Pendant",
+        "ImgPath": "/assets/img/Menu/Pendant.jpg",
+        "PageName": "product",
+        "RedirectURL": "Pendant"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Shop By Category",
+        "SubMenu": "New Arrival",
+        "ImgPath": "/assets/img/Menu/AllFancy.png",
+        "PageName": "product",
+        "RedirectURL": "New Arrival"
+      },
+      {
+        "Sr": 0,
+        "Menu": "Stone Colour",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "product",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "Colourless Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/DZ.png",
+        "PageName": "product",
+        "RedirectURL": "D-Z Diamond Jewelry"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "Blue Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/Blue.png",
+        "PageName": "product",
+        "RedirectURL": "Blue Diamond Jewelry"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "Pink Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/Pink.png",
+        "PageName": "product",
+        "RedirectURL": "Pink Diamond Jewelry"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "Green Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/Green.jpg",
+        "PageName": "product",
+        "RedirectURL": "Green Diamond Jewelry"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "Yellow Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/Yellow.png",
+        "PageName": "product",
+        "RedirectURL": "Yellow Diamond Jewelry"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Stone Colour",
+        "SubMenu": "All Fancy Diamond Jewelry",
+        "ImgPath": "/assets/img/Menu/AllFancy.png",
+        "PageName": "product",
+        "RedirectURL": "All Fancy Diamond Jewelry"
+      },
+      {
+        "Sr": 0,
+        "Menu": "By Range",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "product",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "By Price",
+        "SubMenu": "Below $5000",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "product",
+        "RedirectURL": "Below $5000"
+      },
+      {
+        "Sr": 1,
+        "Menu": "By Price",
+        "SubMenu": "$5000-$10000",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "product",
+        "RedirectURL": "$5000-$10000"
+      },
+      {
+        "Sr": 1,
+        "Menu": "By Price",
+        "SubMenu": "$10000-$20000",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "product",
+        "RedirectURL": "$10000-$20000"
+      },
+      {
+        "Sr": 1,
+        "Menu": "By Price",
+        "SubMenu": "Above $20000",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "product",
+        "RedirectURL": "Above $10000"
+      }
+    ],
+    "CompanyId": 0,
+    "UserId": 0,
+    "UniquId": 0,
+    "EncryptedId": null,
+    "TotalCount": 0,
+    "PartialViewName": null,
+    "SubMenuName": null,
+    "FromHome": 0,
+    "DelId": null
+  },
+  "design": {
+    "MenuList": [
+      {
+        "Sr": 0,
+        "Menu": "Design By Category",
+        "SubMenu": "",
+        "ImgPath": "",
+        "PageName": "designown",
+        "RedirectURL": ""
+      },
+      {
+        "Sr": 1,
+        "Menu": "Design By Category",
+        "SubMenu": "Ring",
+        "ImgPath": "/assets/img/Menu/Ring.jpg",
+        "PageName": "designown",
+        "RedirectURL": "Ring"
+      },
+      {
+        "Sr": 1,
+        "Menu": "Design By Category",
+        "SubMenu": "Earring",
+        "ImgPath": "/assets/img/Menu/Earring.jpg",
+        "PageName": "designown",
+        "RedirectURL": "Earring"
+      }
+    ],
+    "CompanyId": 0,
+    "UserId": 0,
+    "UniquId": 0,
+    "EncryptedId": null,
+    "TotalCount": 0,
+    "PartialViewName": null,
+    "SubMenuName": null,
+    "FromHome": 0,
+    "DelId": null
+  }
+}
