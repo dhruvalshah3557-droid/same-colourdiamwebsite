@@ -1,0 +1,9 @@
+{
+  "source": "https://colourdiam.com",
+  "lastSync": "2026-08-12T12:43:28.815814+00:00",
+  "counts": {
+    "diamonds": 746,
+    "jewelry": 644
+  },
+  "generator": "scripts/sync_colourdiam.py"
+}

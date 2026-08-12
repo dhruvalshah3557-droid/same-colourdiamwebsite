@@ -9558,24 +9558,6 @@
     "tag": "6175"
   },
   {
-    "id": "4072",
-    "name": "0.4 carat, , Trapezoid Shape, Side Stone",
-    "carat": "0.4",
-    "intensity": "Trapezoid Shape",
-    "shape": "Side Stone",
-    "clarity": "",
-    "lab": "",
-    "color": "Fancy",
-    "price": 644,
-    "priceLabel": "$644",
-    "img": null,
-    "imgPathList": [],
-    "isNew": false,
-    "disc": 0,
-    "hold": false,
-    "tag": "4072"
-  },
-  {
     "id": "5132",
     "name": "0.4 carat, , Cadillac Shape, Side Stone",
     "carat": "0.4",
@@ -9592,6 +9574,24 @@
     "disc": 0,
     "hold": false,
     "tag": "5132"
+  },
+  {
+    "id": "4072",
+    "name": "0.4 carat, , Trapezoid Shape, Side Stone",
+    "carat": "0.4",
+    "intensity": "Trapezoid Shape",
+    "shape": "Side Stone",
+    "clarity": "",
+    "lab": "",
+    "color": "Fancy",
+    "price": 644,
+    "priceLabel": "$644",
+    "img": null,
+    "imgPathList": [],
+    "isNew": false,
+    "disc": 0,
+    "hold": false,
+    "tag": "4072"
   },
   {
     "id": "6454",

@@ -51,7 +51,7 @@ DIAMOND_SUBMENUS = [
     "Yellow", "Chameleon", "New Arrival",
 ]
 JEWELRY_SUBMENUS = [
-    "", "Ring", "Earring", "Bracelet", "Necklace", "Pendant", "New Arrival",
+    "Ring", "Earring", "Bracelet", "Necklace", "Pendant", "", "New Arrival",
 ]
 PAGE_SIZE = 20
 MAX_PAGES = 50
@@ -135,12 +135,17 @@ def normalize_diamond(raw):
     }
 
 
-def normalize_jewelry(raw):
+def normalize_jewelry(raw, category=""):
     name = raw.get("ProdName") or ""
     price = raw.get("NewPrice") or raw.get("OldPrice") or 0
+    metal = _guess_metal(name)
+    purity = _guess_purity(name)
     return {
         "id": raw["ProdId"],
         "name": name,
+        "category": category,
+        "metal": metal,
+        "purity": purity,
         "price": price,
         "priceLabel": f"${price:,}" if price else "Contact For Price",
         "img": _media_url(raw),
@@ -150,6 +155,38 @@ def normalize_jewelry(raw):
         "hold": bool(raw.get("IsHold")),
         "tag": raw.get("TagNo"),
     }
+
+
+def _guess_metal(name):
+    text = name.lower()
+    if "white" in text and ("gold" in text or "k" in text):
+        return "White Gold"
+    if "yellow" in text and ("gold" in text or "k" in text):
+        return "Yellow Gold"
+    if "platinum" in text:
+        return "Platinum"
+    if "silver" in text:
+        return "Silver"
+    return "Gold"
+
+
+def _jewelry_category(raw):
+    """Best-effort category from the jewellery name (e.g. 'Ring', 'Earring')."""
+    name = (raw.get("ProdName") or "").lower()
+    for cat in ["bracelet", "necklace", "pendant", "earring", "ring"]:
+        if cat in name:
+            return cat.capitalize()
+    return "Jewellery"
+
+
+def _guess_purity(name):
+    text = name.upper()
+    for p in ["18K", "14K", "9K", "22K", "10K", "916", "585", "375"]:
+        if p in text:
+            return p
+    if "silver" in text.lower():
+        return "Silver"
+    return ""
 
 
 def _guess_color(intensity):
@@ -261,7 +298,11 @@ def sync(kind, with_media=False):
             if it["ProdId"] in seen:
                 continue
             seen.add(it["ProdId"])
-            all_items.append(norm(it))
+            if kind == "jewelry":
+                cat = sub if sub and sub != "New Arrival" else _jewelry_category(it)
+                all_items.append(norm(it, cat))
+            else:
+                all_items.append(norm(it))
         print(f"  {sub!r}: {len(batch)}")
         time.sleep(0.2)
 

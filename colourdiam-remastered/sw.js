@@ -11,6 +11,8 @@ const APP_SHELL = [
   "./css/main.css",
   "./js/data.js",
   "./js/app.js",
+  "./data/diamonds.json",
+  "./data/jewelry.json",
   "./manifest.json",
   "./favicon.ico",
   "./images/logo/logoMobile.png"
