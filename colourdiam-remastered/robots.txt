@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://colourdiam.com/sitemap.xml
+Sitemap: https://www.colourdiamhk.com/sitemap.xml

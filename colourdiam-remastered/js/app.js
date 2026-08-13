@@ -37,6 +37,18 @@
     });
   }
 
+  /* ---------- Active nav link (aria-current) ---------- */
+  (function () {
+    const page = (location.pathname.split("/").pop() || "index.html").replace(/\.html$/, "") || "index";
+    document.querySelectorAll(".site-nav a, .app-tabbar a").forEach(function (a) {
+      const href = (a.getAttribute("href") || "").split("#")[0].replace(/\.html$/, "");
+      if (href === page || (href === "" && page === "index")) {
+        a.setAttribute("aria-current", "page");
+        a.classList.add("active");
+      }
+    });
+  })();
+
   /* ---------- Hero slider ---------- */
   const heroSlider = document.getElementById("heroSlider");
   if (heroSlider) {

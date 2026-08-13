@@ -6,14 +6,16 @@
   <title>Frequently Asked Questions | ColourDiam — Colour Diamond Buying Guide</title>
   <meta name="description" content="Answers to common questions about buying fancy colour diamonds — certification, shipping, returns, custom designs, payments and more at ColourDiam.">
   <meta name="keywords" content="Diamond FAQ, Colour Diamond Buying Guide, GIA Certification, Diamond Shipping, Diamond Returns">
-  <link rel="canonical" href="https://colourdiam.com/faq">
+  <link rel="canonical" href="https://www.colourdiamhk.com/faq">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta property="og:type" content="website">
   <meta property="og:title" content="FAQ | ColourDiam">
   <meta property="og:description" content="Answers to common questions about buying fancy colour diamonds.">
-  <meta property="og:url" content="https://colourdiam.com/faq">
-  <meta property="og:image" content="https://colourdiam.com/assets/img/logo/logo.png">
+  <meta property="og:url" content="https://www.colourdiamhk.com/faq">
+  <meta property="og:image" content="https://www.colourdiamhk.com/images/logo/logo.png">
+  <meta property="og:site_name" content="ColourDiam">
+  <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#c29958">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,20 +76,20 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
   <div class="top-bar">
     <div class="container">
       <span class="top-bar__msg">FREE SHIPPING &amp; RETURNS &nbsp;|&nbsp; 100% MONEY BACK &nbsp;|&nbsp; LIFETIME WARRANTY</span>
       <div class="top-bar__contact">
-        <a href="#" data-open-modal="email"><i class="fa-regular fa-envelope"></i> Email Me</a>
-        <a href="tel:+85296440155"><i class="fa-solid fa-phone"></i> Call Me</a>
-        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+        <a href="#" data-open-modal="email"><i class="fa-regular fa-envelope" aria-hidden="true"></i> Email Me</a>
+        <a href="tel:+85296440155"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call Me</a>
+        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="fa-solid fa-moon" aria-hidden="true"></i></button>
       </div>
     </div>
   </div>
-
   <header class="site-header">
     <div class="container">
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
       <a class="logo" href="index.html" aria-label="ColourDiam home">
         <img src="images/logo/logoMobile.png" alt="ColourDiam — Fine Fancy Colour Diamond Jewellery" style="height:38px;width:auto;">
       </a>
@@ -100,12 +102,11 @@
         </ul>
       </nav>
       <div class="header-actions">
-        <button class="icon-btn" aria-label="Wishlist"><i class="fa-regular fa-heart"></i><span class="badge">0</span></button>
-        <button class="icon-btn" aria-label="Cart"><i class="fa-regular fa-bag-shopping"></i><span class="badge">0</span></button>
+        <button class="icon-btn" aria-label="Wishlist"><i class="fa-regular fa-heart" aria-hidden="true"></i><span class="badge">0</span></button>
+        <button class="icon-btn" aria-label="Cart"><i class="fa-regular fa-bag-shopping" aria-hidden="true"></i><span class="badge">0</span></button>
       </div>
     </div>
   </header>
-
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -116,8 +117,7 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-
-  <main>
+  <main id="main">
     <section class="page-hero">
       <div class="container">
         <p class="crumbs"><a href="index.html" style="color:inherit;">Home</a> &nbsp;/&nbsp; FAQ</p>
@@ -125,34 +125,32 @@
         <p>Everything you need to know about buying fancy colour diamonds with confidence.</p>
       </div>
     </section>
-
     <section class="section">
       <div class="container" style="max-width:820px;">
         <div class="faq-item">
-          <button class="faq-q">Are your colour diamonds certified? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>Yes. Every diamond we sell ships with a GIA or Argyle certificate, guaranteeing its authenticity and grading. Some stones are also certified by IGI, HRD or CGL.</p></div>
+          <button class="faq-q" id="faq-item-1-btn" aria-expanded="false" aria-controls="faq-answer-1">Are your colour diamonds certified? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-1"><p>Yes. Every diamond we sell ships with a GIA or Argyle certificate, guaranteeing its authenticity and grading. Some stones are also certified by IGI, HRD or CGL.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">Do you offer free shipping? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>Yes — we provide worldwide shipping completely free on all orders, with fully insured delivery and discreet packaging.</p></div>
+          <button class="faq-q" id="faq-item-2-btn" aria-expanded="false" aria-controls="faq-answer-2">Do you offer free shipping? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-2"><p>Yes — we provide worldwide shipping completely free on all orders, with fully insured delivery and discreet packaging.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">What is your return policy? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>We offer a 30-day money-back guarantee on all purchases, with free returns on jewellery. Loose diamonds can be returned within 30 days in their original, unaltered condition.</p></div>
+          <button class="faq-q" id="faq-item-3-btn" aria-expanded="false" aria-controls="faq-answer-3">What is your return policy? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-3"><p>We offer a 30-day money-back guarantee on all purchases, with free returns on jewellery. Loose diamonds can be returned within 30 days in their original, unaltered condition.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">What are Argyle pink diamonds? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>Argyle pink diamonds come from the Argyle mine in Australia, which ceased production in 2020. They are among the rarest and most sought-after fancy colour diamonds in the world, and ColourDiam is a specialist in sourcing them.</p></div>
+          <button class="faq-q" id="faq-item-4-btn" aria-expanded="false" aria-controls="faq-answer-4">What are Argyle pink diamonds? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-4"><p>Argyle pink diamonds come from the Argyle mine in Australia, which ceased production in 2020. They are among the rarest and most sought-after fancy colour diamonds in the world, and ColourDiam is a specialist in sourcing them.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">Can I design my own jewellery? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>Absolutely. Our Design Your Own service lets you select a stone, metal and setting. Our master jewellers produce CAD renders and craft your piece in approximately three weeks.</p></div>
+          <button class="faq-q" id="faq-item-5-btn" aria-expanded="false" aria-controls="faq-answer-5">Can I design my own jewellery? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-5"><p>Absolutely. Our Design Your Own service lets you select a stone, metal and setting. Our master jewellers produce CAD renders and craft your piece in approximately three weeks.</p></div>
         </div>
         <div class="faq-item">
-          <button class="faq-q">What payment methods do you accept? <i class="fa-solid fa-plus"></i></button>
-          <div class="faq-a"><p>We accept all major credit cards, bank transfers and secure online payments. Our checkout is 100% secure and PCI compliant.</p></div>
+          <button class="faq-q" id="faq-item-6-btn" aria-expanded="false" aria-controls="faq-answer-6">What payment methods do you accept? <i class="fa-solid fa-plus" aria-hidden="true"></i></button>
+          <div class="faq-a" id="faq-answer-6"><p>We accept all major credit cards, bank transfers and secure online payments. Our checkout is 100% secure and PCI compliant.</p></div>
         </div>
-
         <div style="text-align:center;margin-top:40px;">
           <p style="color:var(--ink-3);">Still have questions?</p>
           <a href="contact.html" class="btn btn--gold">Contact Our Specialists</a>
@@ -160,26 +158,24 @@
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container">
       <div class="row">
         <div class="col-brand"><span class="brand-text">Colour<span>Diam</span></span><p class="lead">Experience timeless elegance with our exquisite collection of fine jewellery and diamonds, meticulously crafted to elevate your style and celebrate life's most precious moments.</p>
           <div class="social-row">
-            <a href="https://www.facebook.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://twitter.com/Colourdiamltd" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.instagram.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.pinterest.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
-            <a href="https://www.tiktok.com/@colourdiamondsbkk" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/Colourdiamltd" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.pinterest.com/colourdiamonds/" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
+            <a href="https://www.tiktok.com/@colourdiamondsbkk" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
           </div></div>
-        <div class="col-link"><h6>Buyer Information</h6><ul><li><a href="faq.html">Frequently Asked Questions</a></li><li><a href="education.html">Education</a></li><li><a href="about.html">Newsletter</a></li><li><a href="blog.html">Blog</a></li></ul></div>
-        <div class="col-link"><h6>Information</h6><ul><li><a href="about.html">About Us</a></li><li><a href="privacy-policy.html">Privacy &amp; Policy</a></li><li><a href="terms.html">Terms &amp; Conditions</a></li><li><a href="returns.html">Return Policy</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+        <div class="col-link"><h6>Buyer Information</h6><ul><li><a href="faq.html">Frequently Asked Questions</a></li><li><a href="index.html#newsletter">Newsletter</a></li></ul></div>
+        <div class="col-link"><h6>Information</h6><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
         <div class="col-link"><h6>Quick Links</h6><ul><li><a href="diamonds.html">Loose Diamonds</a></li><li><a href="jewelry.html">Jewellery</a></li><li><a href="design-your-own.html">Design Your Own</a></li><li><a href="about.html">Why Choose Us</a></li></ul></div>
       </div>
-      <div class="copyright"><p>&copy; All Right Reserved To ColourDiam 2026</p><p>Crafted with <i class="fa-solid fa-gem" style="color:var(--brand);"></i> in Hong Kong</p></div>
+      <div class="copyright"><p>&copy; All Right Reserved To ColourDiam 2026</p><p>Crafted with <i class="fa-solid fa-gem" style="color:var(--brand);" aria-hidden="true"></i> in Hong Kong</p></div>
     </div>
   </footer>
-
   <div class="modal" id="emailModal" role="dialog" aria-modal="true" aria-labelledby="emailModalTitle">
     <div class="modal__backdrop" data-close-modal></div>
     <div class="modal__panel">
@@ -198,26 +194,22 @@
       </form>
     </div>
   </div>
-
   <div class="app-banner" id="appBanner">
-    <div class="app-icon"><i class="fa-solid fa-gem"></i></div>
+    <div class="app-icon"><i class="fa-solid fa-gem" aria-hidden="true"></i></div>
     <p><strong>Get the ColourDiam App</strong> Install on your phone — works on iPhone, iPad &amp; Android.</p>
     <button class="btn btn--gold" id="installBtn">Install</button>
     <button class="close-x" id="dismissBanner" aria-label="Dismiss">&times;</button>
   </div>
-
-  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"><i class="fa-solid fa-angle-up"></i></button>
-
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top"><i class="fa-solid fa-angle-up" aria-hidden="true"></i></button>
   <nav class="app-tabbar" aria-label="App navigation">
     <ul>
-      <li><a href="index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
-      <li><a href="jewelry.html"><i class="fa-solid fa-ring"></i><span>Jewelry</span></a></li>
-      <li><a href="diamonds.html"><i class="fa-solid fa-gem"></i><span>Diamonds</span></a></li>
-      <li><a href="design-your-own.html"><i class="fa-solid fa-pen-ruler"></i><span>Design</span></a></li>
-      <li><a href="contact.html"><i class="fa-solid fa-comments"></i><span>Contact</span></a></li>
+      <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Home</span></a></li>
+      <li><a href="jewelry.html"><i class="fa-solid fa-ring" aria-hidden="true"></i><span>Jewelry</span></a></li>
+      <li><a href="diamonds.html"><i class="fa-solid fa-gem" aria-hidden="true"></i><span>Diamonds</span></a></li>
+      <li><a href="design-your-own.html"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i><span>Design</span></a></li>
+      <li><a href="contact.html"><i class="fa-solid fa-comments" aria-hidden="true"></i><span>Contact</span></a></li>
     </ul>
   </nav>
-
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>
   <script>
@@ -227,6 +219,7 @@
         const a = item.querySelector(".faq-a");
         const open = item.classList.toggle("open");
         a.style.maxHeight = open ? a.scrollHeight + "px" : "0";
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
       });
     });
     const contactForm = document.getElementById("contactForm");
